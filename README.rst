@@ -20,3 +20,14 @@ Install the requirements in a custom Python 3.11.9 environement.
    (my_env) usr@desktop:~$ pip install -r requirements.txt
 
 Then you can create a model running the `modeling file <modeling.ipynb>`_.
+
+
+Testing
+=======
+
+To test the package:
+
+.. code-block:: console
+
+   (my_env) usr@desktop:~$ cd tests
+   (my_env) usr@desktop:~$ python -W ignore test.py

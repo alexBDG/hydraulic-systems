@@ -77,5 +77,5 @@ def dump_model(model: Predictor, path: str) -> None:
 def load_model(path) -> Predictor:
     """Load a model from pickle format."""
     with open(path, "rb") as f:
-        model = pickle.dump(f)
+        model = pickle.load(f)
     return model

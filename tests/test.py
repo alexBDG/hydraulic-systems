@@ -15,8 +15,8 @@ from lightgbm import LGBMClassifier
 # Package imports.
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from hydraulic_systems.models import Predictor
-from hydraulic_systems.models import dump_model
-from hydraulic_systems.models import load_model
+from hydraulic_systems.utils import dump_model
+from hydraulic_systems.utils import load_model
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "data")
 

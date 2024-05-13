@@ -3,6 +3,15 @@ Change Log
 ==========
 
 
+0.2.0
+=====
+
+Added
+-----
+
+* Streamlit interface to predict valve condition on new cycle data
+
+
 0.1.0
 =====
 

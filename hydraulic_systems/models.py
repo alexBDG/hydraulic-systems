@@ -1,7 +1,6 @@
 """Contains the main predictor model."""
 
 # System imports.
-import pickle
 import numpy as np
 from numpy import ndarray
 
@@ -66,16 +65,3 @@ class Predictor(object):
         y = self.clf.predict(X)
         y = self._postprocess_data(y)
         return y
-
-
-def dump_model(model: Predictor, path: str) -> None:
-    """Save the input model into pickle format."""
-    with open(path, "wb") as f:
-        pickle.dump(model, f)
-
-
-def load_model(path) -> Predictor:
-    """Load a model from pickle format."""
-    with open(path, "rb") as f:
-        model = pickle.load(f)
-    return model

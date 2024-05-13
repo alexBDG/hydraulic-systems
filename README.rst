@@ -31,3 +31,15 @@ To test the package:
 
    (my_env) usr@desktop:~$ cd tests
    (my_env) usr@desktop:~$ python -W ignore test.py
+
+
+Web application
+===============
+
+To run a Streamlit web application:
+
+.. code-block:: console
+
+   (my_env) usr@desktop:~$ streamlit run main_streamlit.py
+
+.. image:: fig/streamlit_preview.png

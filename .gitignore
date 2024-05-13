@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.__pycache__
+
+# Python extensions
+*.py~
+
+# Temporary files
+*~
+
+# Jupyter-notebook
+.ipynb_checkpoints
+
+# Data folder
+data_subset
+
+# Model folder
+models
